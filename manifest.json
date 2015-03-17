@@ -1,0 +1,41 @@
+{
+  "name": "Splunk",
+  "id": "splunk",
+  "description": {
+    "en": "Access to Splunk!",
+    "fr": "Accès à Splunk!"
+  },
+  "developer": {
+    "name": "gllm",
+    "email": "mail@gllm.me",
+    "url": "http://gllm.me"
+  },
+  "multi_instance": "false",
+  "arguments": {
+    "install": [
+      {
+        "name": "domain",
+        "ask": {
+          "en": "Choose a domain for Splunk!"
+        },
+        "example": "domain.org"
+      },
+      {
+        "name": "path",
+        "ask": {
+          "en": "Choose a path for Splunk!"
+        },
+        "example": "/",
+        "default": "/"
+      },
+      {
+        "name": "server",
+        "ask": {
+          "en": "Choose the IP of the Splunk! server"
+        },
+        "example": "127.0.0.1",
+        "default": "127.0.0.1"
+      }
+    ]
+  }
+}
